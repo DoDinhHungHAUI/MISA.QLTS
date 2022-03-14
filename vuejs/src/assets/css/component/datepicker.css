@@ -1,0 +1,43 @@
+/* Change css default of Datepicker */
+.vdpInnerWrap{
+    min-width: 0em !important;
+}
+
+.vdpClearInput:before {
+    padding: 0px !important;
+    font-size: 13px !important;
+    content: "" !important;
+    background-image: url('../../icon/icon_date.png');
+    width: 1.5em;
+    height: 1.5em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    /* left: 50%; */
+    top: 58% !important;
+    left: 12px !important;
+    margin: -0.4em 0 0 -0.7em;
+    color: rgba(0,0,0,.3);
+    border: none !important;
+    border-radius: 0px !important;
+    line-height: 17px !important;
+
+}
+
+/* Change css Datepicker */
+.vdpComponent.vdpWithInput>input{
+    /* width: 278.6px; */
+    width: 295.6px;
+    padding: 9px 16px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+.vdpComponent.vdpWithInput>input{
+    /* font-family: 'Roboto Regular';
+    font-size: 14pt; */
+    padding: 9px 16px !important;
+}

@@ -1,0 +1,35 @@
+
+/* Context menu */
+
+#context-menu {
+    position:fixed;
+    z-index:10000;
+    width:150px;
+    background:#ffffff;
+    border-radius:5px;
+    transform:scale(0);
+    transform-origin:top left;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+}
+#context-menu.active {
+    transform:scale(1);
+    transition:transform 300ms ease-in-out;
+}
+#context-menu .item {
+    padding:8px 10px 8px 16px;
+    font-size:13px;
+    color:#000000;
+}
+#context-menu .item:hover {
+    background:rgba(26, 164, 200, .2);
+    cursor: pointer;
+}
+#context-menu .item i {
+    display:inline-block;
+    margin-right:8px;
+}
+#context-menu hr {
+    margin:2px 0px;
+    border-color:#555;
+}
+

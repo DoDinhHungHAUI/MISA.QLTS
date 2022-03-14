@@ -1,0 +1,90 @@
+/* Toolbar */
+
+.tool-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.tool-bar .toolbar-left {
+    padding-left: 16px;
+    display: flex;
+}
+
+.tool-bar .toolbar-right {
+    position: absolute;
+    right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.tool-bar .toolbar-left p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.tool-bar .m-btn-collapse-grid {
+    border: none;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    border-radius: 4px;
+}
+
+.tool-bar .btn-icon-collapse {
+    background-image: url('../../icon/icon-enlarge-grid.png');
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tool-bar .btn-icon-zoomout{
+    background-image: url('../../icon/icon-zoom-out-grid-master.png');
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tool-bar .btn-icon-down {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.tool-bar .btn-icon-down i{
+    font-size: 9px;
+}
+
+.tool-bar .btn-add-text {
+    padding: 0px 16px;
+}
+
+.m-tooltip-close{
+    width: 55px;
+    font-size: 13px;
+    right: 0px !important;
+    padding: 3px 8px;
+    font-weight: 500;
+    top: 28px;
+    left: 874px;
+}
+
+.header-orgin-funding .m-tooltip-close{
+    left: 817px !important;
+}
+
+
+
+
+
+
+
+

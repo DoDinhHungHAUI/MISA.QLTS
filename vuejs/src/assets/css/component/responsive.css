@@ -1,0 +1,50 @@
+/* responsive màn hình tối thiểu 1024px */
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1366px) 
+{
+    .popup-info-assets{
+        height: calc(100vh - 67px);
+    }
+    .content-popup{
+        height: calc(100vh - 168px);
+        overflow-y: auto !important;
+    }
+    #add-assets{
+        width: 36px;
+        display: flex;
+        justify-content: center;
+    }
+    #add-assets .btn-text{
+        display: none !important;
+    }
+    .m-btn .m-btn-icon{
+        margin: 0px !important;
+    }
+    .total-value-column {
+        right: 24px !important;
+    }
+
+    .navbar{
+        width: 69px;
+    }
+    
+    .navbar .qlts-text, 
+    .navbar .nav-item-text, 
+    .navbar .navbar-item-icon-drop, 
+    .navbar .bottom-navbar{
+        display: none;
+    }
+    .navbar .nav-item-icon{
+        margin-right: 0px !important;
+    }
+    
+    .navbar .nav-item{
+        padding-left: 14px !important;
+    }
+
+    .content{
+        left: 70px !important;
+        width: calc(100% - 221px + 151px) !important;
+    }
+    
+} */

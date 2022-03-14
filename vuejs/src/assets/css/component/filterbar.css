@@ -1,0 +1,115 @@
+/* Filter bar */
+.filter-bar .filter-left{
+    padding-left : 16px;
+    display: flex;
+}
+  
+.filter-bar .filter-right {
+    position: absolute;
+    right : 16px;
+    display: flex;
+    align-items: center
+}
+
+.filter-bar .cbphongban {
+    height: 38px;
+    font-size: 13px;
+    width: 180px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding-left: 16px;
+    outline: none;
+    margin-left: 16px;
+}
+
+.filter-bar .cbvitri {
+    height: 38px;
+    font-size: 13px;
+    width: 180px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding-left: 16px;
+    outline: none;
+    margin-left: 16px;
+}
+
+/* Filterbar module ghi tăng */
+
+.filter-bar .wrap-filter{
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 50px;
+}
+
+.filter-bar .m-btn-collapse-grid{
+    border: none;
+    background-color: #fff;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-bar .btn-icon-collapse{
+    background-image: url('../../icon/icon-enlarge-grid.png');
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-bar .btn-icon-down{
+    width: 18px;
+    height: 18px;       
+    margin-left: 10px;
+}
+
+.filter-bar .btn-icon-down i{
+    font-size: 9px;
+}
+.m-icon-print{
+    background-image: url('../../icon/icon-print.png');
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+}
+
+.m-icon-info{
+    background-image: url('../../icon/icon-addinfo.png');
+    width: 13px;
+    height: 13px;
+    background-size: contain;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 16px;
+}
+
+.m-icon-delete{
+    background-image: url('../../icon/icon-delete.png');
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 16px;
+}

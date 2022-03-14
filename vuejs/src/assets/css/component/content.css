@@ -1,0 +1,65 @@
+/* Content */
+.content{
+    position : absolute;
+    top : 44px;
+    left : 221px;
+    width : calc(100% - 221px);
+    /* height : calc(100vh - 61px); */
+    height: calc(100vh - 44px);
+    background-color: #f4f7ff;
+    transition: 0.3s;
+}
+
+/*filter bar*/
+.content .filter-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 12px;
+}
+
+/* Grid */
+.content .grid {
+    width: 100%;
+    /* height: calc(100vh - 131.5px); */
+    height: calc(100vh - 107px);
+    position: relative;
+}
+
+.content .grid .content-grid {
+    margin-top: 10px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    overflow: auto;
+    /* height: calc(100vh - 171.5px - 10px); */
+    height: calc(100vh - 164px - 10px + 17px);
+    min-width: calc(100% - 32px);
+    background-color: #ffffff;
+    /* border-top-right-radius: 3.5px; */
+    /* border-top-left-radius: 3.5px; */
+    border-radius: 3.5px 3.5 0px 0px !important;
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+    /* width: 1261px; */
+    /* height: 546px; */
+    /* overflow: hidden; */
+    border-right: none;
+    border-top-left-radius: 3.5px;
+}
+
+.content .grid table {
+    border-collapse: collapse;
+}
+
+.content .grid table tr{
+    border-bottom : 0.5px solid #e2e2e2;
+    /*display : block;*/
+}
+
+.content-collapse{
+    left: 70px !important;
+    width: calc(100% - 221px + 151px) !important;
+}

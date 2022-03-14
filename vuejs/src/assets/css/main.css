@@ -1,0 +1,50 @@
+@import url('../css/component/combobox.css');
+@import url('../css/component/button.css');
+@import url('../css/component/input.css');
+@import url('../css/component/navbar.css');
+@import url('../css/component/header.css');
+@import url('../css/component/content.css');
+@import url('../css/component/filterbar.css');
+@import url('../css/component/icon.css');
+@import url('../css/component/grid.css');
+@import url('../css/component/paging.css');
+@import url('../css/component/popup.css');
+@import url('../css/component/datepicker.css');
+@import url('../css/component/common.css');
+@import url('../css/component/toast.css');
+@import url('../css/component/loader.css');
+@import url('../css/component/contextmenu.css');
+@import url('../css/component/responsive.css');
+@import url('../css/component/tooltip.css');
+@import url('../css/component/toolbar.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+    margin : 0;
+    font-family : Roboto , sans-serif;
+    /* font-family: GoogleSans; */
+    /* font-family: "Roboto"; */
+    /* font-weight: 700; */
+    font-size : 13px;
+}
+
+/* input , button{
+    font-family : Roboto , sans-serif;
+    font-weight: 700;
+} */
+
+@font-face {
+    font-family: GoogleSans;
+    src: url('../font/GoogleSans-Regular.otf');
+}
+
+@font-face {
+    font-family: GoogleSans Bold;
+    src: url('../font/GoogleSans-Bold.otf');
+}
+
+@font-face {
+    font-family: GoogleSans Italic;
+    src: url('../font/GoogleSans-Italic.otf');
+}

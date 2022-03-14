@@ -1,0 +1,25 @@
+.icon-search {
+    background-image: url('../../icon/icon-search.png');
+    background-repeat : no-repeat;
+    background-position : 16px center;
+    background-size: 16px;
+}
+
+.icon-combobox{
+    background-image: url('../../icon/icon-combobox.png');
+    background-repeat : no-repeat;
+    background-position : 16px center;
+    background-size: 16px;
+}
+
+.icon-add{
+    /* width: 16px;
+    height: 16px; */
+    /* background-image: url('../../icon/icon-add.png');
+    background-repeat : no-repeat;
+
+    background-size: contain; */
+    font-size: 16px;
+}
+
+
